@@ -32,6 +32,13 @@ public class CalculadoraTest {
         long resultado = calculadora.dividir(10, 2);
         assertEquals(5, resultado,"10/2 espero que sea 5");
     }
+
+    @Test 
+    public void tesPresentarTablaMultiplicar() {
+        Calculadora calculadora = new Calculadora();
+
+        calculadora.presentarTablaMultiplicar(6);
+    }
     
 
 }
