@@ -14,9 +14,24 @@ public class CalculadoraTest {
     }
 
     @Test 
-    void testRestar() {
+    public void testRestar() {
         long resultado = calculadora.restar(10, 5);
         assertEquals(5, resultado, "10-5 esperaba 5");
+
     }
+
+    @Test
+    public void testMultiplicar(){
+        long resultado = calculadora.multiplicar(2, 5);
+        assertEquals(10, resultado, "2*5 espero que sea 10");
+
+    }
+
+    @Test
+    public void testDividir(){
+        long resultado = calculadora.dividir(10, 2);
+        assertEquals(5, resultado,"10/2 espero que sea 5");
+    }
+    
 
 }
