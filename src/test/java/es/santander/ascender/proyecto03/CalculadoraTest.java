@@ -46,6 +46,21 @@ public class CalculadoraTest {
 
         calculadora.CalcularTablaMultiplicar(9);
     }
+
+    @Test
+    public void testCalcularTablaMultiplicarConWhile() {
+        Calculadora calculadora = new Calculadora();
+
+        calculadora.CalcularTablaMultiplicar(9);
+
+    }
+
+    @Test
+    public void testCalcularTablaMultiplicarConDoWhile() {
+        Calculadora calculadora = new Calculadora();
+
+        calculadora.CalcularTablaMultiplicar(9);
+    }
     
 
 }
